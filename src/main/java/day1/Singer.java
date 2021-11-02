@@ -11,10 +11,8 @@ import lombok.ToString;
 @Setter
 @ToString
 @NoArgsConstructor
-
-public class Singer {
+public class Singer {   //vo, dto 객체들은 bean 으로 관리하지 않습니다. -> Model객체 
 	private int idx;
 	private String singer;
 	private List<String> albums;
-
 }
